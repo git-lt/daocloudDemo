@@ -25,5 +25,5 @@ RUN  npm install \
      && cp -r dist/* /var/www/html \
      && rm -rf /app
 
-# 以前台方式启动 nginx
+# 以前台方式启动 nginx  
 CMD ["nginx","-g","daemon off;"]
