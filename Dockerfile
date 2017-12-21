@@ -19,7 +19,7 @@ EXPOSE 80
 # 将 dist 目录所有文件拷贝到 nginx 目录下
 # 删除工作目录
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
-  && cnpm install
+  && cnpm install \
   && npm run build \
   && cp -r dist/* /var/www/html \
   && rm -rf /app
