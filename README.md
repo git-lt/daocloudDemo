@@ -1,9 +1,21 @@
-# DaoCloudNodeDemo
-## 使用DaoCloud构建NodeJS的一个简单Demo
+# veu-webpack
 
-> 可以从本Demo中了解到如下内容
+> A Vue.js project
 
-- `NodeJS` 的 `Dockerfile`
-- `NodeJS` 的 `DaoCloud` 的持续集成
-- `NodeJS` 连接 `mongodb`
-- `NodeJS` 连接 `mysql`
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
